@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
+ 
     } // main method onCreate
 
     public void onClickMoreInfo(View view) {
