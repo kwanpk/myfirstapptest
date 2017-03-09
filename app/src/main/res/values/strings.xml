@@ -3,4 +3,10 @@
     <string name="txttitle">ป้ายจราจร</string>
     <string name="moreInfo">More Info</string>
     <string name="aboutMe">About Me</string>
+    <string name="faceebook">FaceBook</string>
+
+    <string name="filename">ชื่อ นางสาวพรศิริ รักษาสุข \n
+    รหัสนักศึกษา 5711020660070 \n
+    หลักสูตร วิทยาการคอมพิวเตอร์ \n
+    </string>
 </resources>
