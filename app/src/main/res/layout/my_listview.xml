@@ -17,10 +17,10 @@
         android:layout_height="match_parent">
 
         <TextView
-            android:text="TextView"
+            android:id="@+id/txtTitleLiv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/txtTitleLiv"
+            android:text="TextView"
             android:textColorLink="@android:color/holo_green_dark"
             android:textSize="@dimen/h2" />
 

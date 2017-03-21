@@ -25,6 +25,8 @@ public class Detail extends AppCompatActivity {
         detailTextView.setText(getIntent().getStringExtra("Detail"));
         imageView.setImageResource(getIntent().getIntExtra("Image",R.drawable.traffic_01));
 
+
+
     } //main method
 
         public void clickBack(View view) {  //ปุ้มคลิ๊ก back

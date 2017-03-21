@@ -3,4 +3,13 @@
     <string name="txttitle">ป้ายจราจร</string>
     <string name="moreInfo">More Info</string>
     <string name="aboutMe">About Me</string>
+    <string name="faceebook">FaceBook</string>
+
+    <string name="filename"><b>ชื่อ</b>นางสาวพรศิริ รักษาสุข \n
+    <b>รหัสนักศึกษา</b> 5711020660070 \n
+    <b>หลักสูตร</b> วิทยาการคอมพิวเคอร์ \n
+        <b>เบอร์โทร</b> 087-569-5672
+    </string>
+    <string name="fakebook"><b>   Facebook</b>   Kwan Raksasook</string>
+
 </resources>

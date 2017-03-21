@@ -8,16 +8,16 @@
     android:background="@drawable/bg10">
 
     <TextView
+        android:id="@+id/txttitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/txttitle"
-        android:layout_centerInParent="false"
-        android:textSize="@dimen/h1"
-        android:text="@string/txttitle"
-        android:textStyle="bold|italic"
-        android:textColor="@android:color/holo_red_dark"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_alignParentTop="true" />
+        android:layout_centerInParent="false"
+        android:text="@string/txttitle"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="@dimen/h1"
+        android:textStyle="bold|italic" />
 
     <ListView
         android:id="@+id/livTraffic"
@@ -41,13 +41,14 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="onClickMoreInfo"
-            tools:text="@string/moreInfo" />
+            android:text="@string/moreInfo" />
 
         <Button
             android:id="@+id/btnAboutMe"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="onClickAboutMe"
             android:text="@string/aboutMe" />
 
     </LinearLayout>
