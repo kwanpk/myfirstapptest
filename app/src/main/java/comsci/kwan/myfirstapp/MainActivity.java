@@ -67,10 +67,10 @@ public class MainActivity extends AppCompatActivity {
 
     }// main method onclickmoreinfo
 
-     public void onClickAboutMe(View view){
-         Intent intent = new Intent(MainActivity.this, Aboutme.class);
+     public void onClickAboutme(View view){
+         Intent intent = new Intent(MainActivity.this, Aboutme1.class);
          startActivity(intent);
+     }// main method onclickaboutme
 
-    } // main method onclickaboutme
 } //main class
 
